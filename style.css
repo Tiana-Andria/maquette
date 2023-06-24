@@ -1,0 +1,211 @@
+.header{
+    display: flex;
+    background-color: black;
+    margin-top: -1%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   /* /* margin-left: -1%;
+    width: 150%;
+    margin: 0;
+    padding: 0; */
+}
+.header .langue ul{
+    list-style-type: none;
+}
+
+.header .contact ul{
+    display: flex;
+    
+    list-style-type: none;
+}
+.header .sociaux ul{
+    display: flex;
+    list-style-type: none;
+}
+.menu{
+    background-color: #ffffff;
+    display: flex;
+    margin-top: -1%;
+}
+.menu ul{
+    list-style-type: none;
+}
+.navigation ul{
+    display: flex;
+}
+.plus ul{
+    display: flex;
+}
+.contenu{
+    margin-top: -1%;
+    background-image: url("img/canape.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    height: 100vh;
+}
+.contact ul li{
+    text-decoration: none;
+    color:#ffffff;
+}
+.contact li {
+    margin-right: 5%;
+}
+.contact{
+    width:60%;
+    margin-left:20%;
+}
+.fleche {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #ffffff;
+    margin-top: 5%;
+  }
+.english{
+    background-color:#fc721e;
+    width: 100%;
+    height: 70%;
+    padding: 15px 14px;
+    display: flex;
+    border: none;
+    margin-top:4%;
+    font-family: 'Montserrat', sans-serif;
+    margin-left:100%;
+    color: #ffffff;
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: #111111;
+}
+.navigation ul li {
+   margin-right: 5%;
+}
+.navigation{
+    margin-left:2%;
+    margin-right: 10%;
+    margin-top:1%;
+}
+.logo{
+    margin-left:6%;
+}
+.message {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("img/enveloppe.png") no-repeat;
+    background-size: cover;
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+  .tel {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: url("img/tel.png") no-repeat;
+    background-size: cover;
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+  .heure {
+    display: inline-block;
+    width: 20px;
+    height:20px;
+    background: url("img/clock.png") no-repeat;
+    background-size: cover;
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+  .plus{
+      margin-top: 1%;
+      margin-left: 5%;
+  }
+  .plus a{
+      text-decoration: none;
+  }
+  .recherche{
+    display: inline-block;
+    width: 30px;
+    height:30px;
+    background: url("img/recherche.png") no-repeat;
+    background-size: cover;
+    vertical-align: middle;
+    margin-left:20px;
+    margin-top: -15%;
+  }
+  .panier{
+    display: inline-block;
+    width: 20px;
+    height:20px;
+    background: url("img/panier.png") no-repeat;
+    background-size: cover;
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+ .isa{
+    position: absolute;
+    right: 180px;
+    top: 67px;
+    text-align: center;
+    width: 15px;
+    line-height: 15px;
+    height: 15px;
+    background: #fc7b2d;
+    color: #ffffff;
+    font-size: 10px;
+    border-radius: 50%;
+ } 
+ .courant{
+     background-color: #fc721e;
+     position: relative;
+    display: block;
+    padding: 9px 14px;
+    line-height: 24px;
+    opacity: 1;
+    font-size: 14px;
+    border-radius: 2px;
+    margin-top: -3%;
+ }
+ .soratra {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    height: 100vh;
+    margin-left:670px;
+    width: 40%;
+    color:#ffffff;
+  }
+.contenu .soratra h1{
+    font-size: 50px;
+    margin-top:33%;
+    font-weight: bold;
+  }
+.contenu .soratra p{
+    font-size: 20px;
+    width: 80%;
+}
+.contenu .bouton #btn1{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #fc721e;
+    color: #ffffff;
+    border: none;
+    margin-right: 5%;
+  }
+  .contenu .bouton #btn2{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #111111;
+    color: #ffffff;
+    border: none;
+  }
+  .contenu .bouton{
+      margin-top:5%;
+  }
